@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login-btn {
+  margin-top: 0px !important;
+}
+
+.SectionOne {
+  background-image: url("/Applications/pears/Tenders/Tendetweb/tenderWeb/public/slider 1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+}
+
+@media screen and (max-width: 600px) {
+  .SectionOne {
+    height: auto;
+  }
+}
+
+.homeMiddleBnr {
+  background-image: url("/Applications/pears/Tenders/Tendetweb/tenderWeb/public/MiddleBanner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  eight: 100vh;
+}
+
+/* styles.css */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
